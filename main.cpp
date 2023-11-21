@@ -170,7 +170,7 @@ int main() {
     std::string result = FibNumberSequence(72000); // make the string out of the fibonacci sequence upto fib(72000)
     unsigned long lengthStr = result.length(); // length of the string
     PrimeSeqNum(lengthStr,result); // evaluate and store all the prime numbers in the map
-    createFileofFibonacciSequence(); //store it in a file called PrimeNumbers.txt which is created in this directory :  /Users/prashantgurung/Library/Developer/Xcode/DerivedData/fib-axrhiqmgwbyflfgxwqxidorszkwe/Build/Products/Debug
+    createFileofFibonacciSequence(); //store it in a file called PrimeNumbers.txt which is created in this directory :  /Users/Username/Library/Developer/Xcode/DerivedData/fib-axrhiqmgwbyflfgxwqxidorszkwe/Build/Products/Debug 
 
     
 
