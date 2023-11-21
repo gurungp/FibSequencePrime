@@ -163,7 +163,7 @@ void createFileofFibonacciSequence(){
 
 int main() {
        
-    sieve(); // insert prime numbers in the vector so that the method CheckifPrimeandStore called by PrimeSeqNum will use it to look up if the passed number is prime
+    sieve(); // insert if the numbers are prime numbers with boolean value in the vector so that the method CheckifPrimeandStore called by PrimeSeqNum will use it to look up if the passed number is prime
     
   //*** THIS FOLLOWING SEQUENCE OF CODE WILL GENERATE THE FIBONACCI SEQUENCE NUMBERS AND STORE IT IN A STRING, THEN EVALUATE EACH STRING OF LENGTH 10 FROM THE START IF ITS A PRIME NUMBER AND THEN STORE IN THE MAP, primeList. THEN IT STORES IT IN THE FILE primeNumbers.txt SO THAT NEXT TIME, WE CAN USE THE FILE TO LOOK UP THE PRIME NUMBERS GENERATED FROM THE FIBONACCI SEQUENCE INSTEAD OF THE TIME CONSUMING FUNCTIONS ALREADY PERFORMED. SO, IF THE FILE IS ALREADY CREATED THEN COMMENT OUT THIS BLOCK OF CODES AND USE THE LINES OF CODE BELOW THIS.  ***
     
